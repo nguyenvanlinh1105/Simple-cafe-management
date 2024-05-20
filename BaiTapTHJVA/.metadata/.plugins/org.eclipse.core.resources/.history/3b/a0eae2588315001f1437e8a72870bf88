@@ -1,0 +1,48 @@
+    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+      <div class="footer_section layout_padding mt-3">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-sm-6">
+                  <h3 class="useful_text">About</h3>
+                  <p class="footer_text">
+Quán cà phê "GrandCoffee" là điểm đến lý tưởng cho những ai đang tìm kiếm một không gian yên tĩnh để thưởng thức cà phê hảo hạng. 
+Thiết kế đơn giản, tinh tế, cùng với âm nhạc du dương và không gian xanh mát, quán cam kết mang đến trải nghiệm thư giãn tuyệt vời cho mọi khách hàng.</p>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <h3 class="useful_text">Menu</h3>
+                  <div class="footer_menu">
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                     </ul>
+                  </div>
+               </div>
+               
+               <div class="col-lg-4 col-sm-6">
+                  <h1 class="useful_text">Contact Us</h1>
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address : 48 Cao Thắng, Thanh Bình, Hải Châu</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Call : +01 1234567890</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Email : vanlinh11nguyenlinh@gmail.com</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>

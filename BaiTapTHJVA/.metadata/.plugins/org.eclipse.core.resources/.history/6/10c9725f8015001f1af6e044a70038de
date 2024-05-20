@@ -1,0 +1,34 @@
+package com.quanlicafe.api;
+
+import java.io.IOException;
+
+import javax.inject.Inject;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.quanlicafe.dao.impl.DoUongCartDAO;
+import com.quanlicafe.dao.impl.SanPhamDoUongCartDAO;
+import com.quanlicafe.model.DoUongCartModel;
+import com.quanlicafe.utils.HttpUtil;
+@WebServlet(urlPatterns= {"/api-xoaDoUong"})
+public class XoaDoUongCartAPI extends HttpServlet{
+	
+	@Inject 
+	private SanPhamDoUongCartDAO sanphamDAO;
+	protected void doDelete(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+			ObjectMapper mapper = new ObjectMapper();
+			req.setCharacterEncoding("UTF-8");
+			resp.setContentType("application/json");
+			DoUongCartModel newModel = HttpUtil.of(req.getReader()).toModel(DoUongCartModel.class);
+			sanphamDAO.deleteChiTietHoaDon(newModel.getIds());
+			mapper.writeValue(resp.getOutputStream(), "{}");
+		}
+	
+		
+	
+}

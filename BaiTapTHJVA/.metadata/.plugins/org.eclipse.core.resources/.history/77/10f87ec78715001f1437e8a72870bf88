@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title><dec:title default="Home" /></title>
+ <link href="<c:url value='https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700' />" rel="stylesheet" type="text/css" media="all"/>
+    <!-- css -->
+    <link href="<c:url value='/template/web/css/linearicons.css' />" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<c:url value='/template/web/css/font-awesome.min.css' />" rel="stylesheet" type="text/css" media="all"/>
+
+    <link href="<c:url value='/template/web/css/bootstrap.css' />" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<c:url value='/template/web/css/magnific-popup.css' />" rel="stylesheet" type="text/css" media="all"/>
+
+    <link href="<c:url value='/template/web/css/nice-select.css' />" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<c:url value='/template/web/css/animate.min.css' />" rel="stylesheet" type="text/css" media="all"/>
+       
+    <link href="<c:url value='/template/web/css/owl.carousel.css' />" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<c:url value='/template/web/css/main.css' />" rel="stylesheet" type="text/css" media="all"/>
+    
+</head>
+<body>
+	<!-- header -->
+    <%@ include file="/common/web/header.jsp" %>
+    <!-- header -->
+
+    <div class="">
+    	<dec:body/>
+    </div>
+
+	<!-- footer -->
+	<%@ include file="/common/web/footer.jsp" %>
+	<!-- footer -->
+
+	<script type="text/javascript" src="<c:url value='/template/web/js/vendor/jquery-2.2.4.min.js"' />"></script>
+    <script type="text/javascript" src="<c:url value='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' />"></script>
+    
+    <script type="text/javascript" src="<c:url value='/template/web/js/vendor/bootstrap.min.js"' />"></script>
+    <script type="text/javascript" src="<c:url value='https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA' />"></script>
+    <script type="text/javascript" src="<c:url value='/template/web/js/easing.min.js"' />"></script>
+    <script type="text/javascript" src="<c:url value='/template/web/js/hoverIntent.js' />"></script>
+    <script type="text/javascript" src="<c:url value='/template/web/js/superfish.min.js' />"></script>    
+    
+	<script type="text/javascript" src="<c:url value='/template/web/js/jquery.ajaxchimp.min.js"' />"></script>
+    <script type="text/javascript" src="<c:url value='/template/web/js/jquery.magnific-popup.min.js' />"></script>
+    
+    <script type="text/javascript" src="<c:url value='/template/web/js/owl.carousel.min.jss' />"></script> 
+    <script type="text/javascript" src="<c:url value='/template/web/js/jquery.sticky.js' />"></script> 
+    <script type="text/javascript" src="<c:url value='/template/web/js/jquery.nice-select.min.js' />"></script> 
+    <script type="text/javascript" src="<c:url value='/template/web/js/parallax.min.js' />"></script>
+    
+    <script type="text/javascript" src="<c:url value='/template/web/js/waypoints.min.js' />"></script> 
+    <script type="text/javascript" src="<c:url value='/template/web/js/jquery.counterup.min.js' />"></script> 
+    <script type="text/javascript" src="<c:url value='/template/web/js/mail-script.js' />"></script>
+    
+    <script type="text/javascript" src="<c:url value='/template/web/js/main.js' />"></script>
+     
+             
+</body>
+</html>

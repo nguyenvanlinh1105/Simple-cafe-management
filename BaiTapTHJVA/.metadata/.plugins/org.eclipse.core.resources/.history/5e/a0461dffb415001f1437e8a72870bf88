@@ -1,0 +1,355 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Trang chủ</title>
+</head>
+<body>
+     <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Chúng tôi đã và đang phục vụ</h2>
+                        <h1 class="display-1 text-white m-0">Các loại đồ uống</h1>
+                        <h2 class="text-white m-0">* kể từ  2020 *</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Chúng tôi đã và đang phục vụ</h2>
+                        <h1 class="display-1 text-white m-0">Các loại đồ uống</h1>
+                        <h2 class="text-white m-0">* kể từ  2020 *</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Giới thiệu chung</h4>
+                <h1 class="display-4"></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Câu chuyện</h1>
+                    <h5 class="mb-3">Chào mừng bạn đến với quán nước của chúng tôi, nơi không chỉ phục vụ những ly nước tươi mát mà còn mang đến không gian thân thiện và thư giãn.</h5>
+                    <p> Nơi đây còn là điểm hẹn lý tưởng để tụ họp, chia sẻ những khoảnh khắc vui vẻ và tận hưởng hương vị độc đáo của cuộc sống.
+                    </p>
+                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Xem thêm</a>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Tầm nhìn</h1>
+                    <p> Trở thành điểm đến hàng đầu, mang đến những trải nghiệm nước uống tinh tế và không gian thư giãn, thân thiện với nguyên liệu tươi ngon và sáng tạo trong pha chế.</p>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Đảm bảo chất lượng và an toàn thực phẩm trong từng ly nước.</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Tạo nên một cộng đồng gắn kết và thân thiện.</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Đổi mới liên tục để đáp ứng nhu cầu và sở thích đa dạng của khách hàng.</h5>
+                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Dịch vụ của chúng tôi</h4>
+                <h1 class="display-4"></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>Giao hàng tận nơi nhanh nhất</h4>
+                            <p class="m-0">Trải nghiệm dịch vụ giao hàng tận nơi tiện lợi của chúng tôi, mang những ly nước tươi ngon đến thẳng cửa nhà bạn!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/nguyenlieu.png" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-coffee service-icon"></i>Nguyên liệu trái cây tươi ngon</h4>
+                            <p class="m-0">Chúng tôi tự hào sử dụng những nguyên liệu trái cây tươi ngon nhất, đảm bảo mang đến hương vị tự nhiên và dinh dưỡng tốt nhất cho mỗi ly nước uống tại quán.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>Cà phê chất lượng tốt nhất</h4>
+                            <p class="m-0">Cà phê chất lượng cao, được chăm sóc kỹ lưỡng từ việc chọn lựa nguyên liệu đến quá trình pha chế, mang lại trải nghiệm thưởng thức tinh tế và đầy hứng khởi cho mỗi khách hàng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-table service-icon"></i>Đặt bàn online</h4>
+                            <p class="m-0">Đặt bàn online dễ dàng và tiện lợi, mang lại trải nghiệm đẳng cấp và không gian thưởng thức nước uống tốt nhất tại quán của chúng tôi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Offer Start -->
+    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+        <div class="container py-5">
+            <h1 class="display-3 text-primary mt-3">Giảm 50%</h1>
+            <h1 class="text-white mb-3">Ưu đãi đặc biệt ngày chủ nhật</h1>
+            <h4 class="text-white font-weight-normal mb-4 pb-3">Chỉ ưu đãi chủ nhật từ ngày 1 đến ngày 21 tháng 6 </h4>
+            <form class="form-inline justify-content-center mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control p-4" placeholder="Email" style="height: 60px;">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Đăng ký</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Offer End -->
+
+
+    <!-- Menu Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Thực đơn và giá cả</h4>
+                <h1 class="display-4">Giá cả cạnh tranh</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="mb-5">Đồ uống nóng</h1>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/tragung.png" alt="">
+                            <h5 class="menu-price">$5</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Trà gừng</h4>
+                            <p class="m-0">Hương vị gừng đặc trưng hoà quyện trong hơi nóng, mang đến cảm giác sảng khoái và bổ dưỡng cho mỗi ngụm uống.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/suanong.jpg" alt="">
+                            <h5 class="menu-price">$7</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Sữa </h4>
+                            <p class="m-0">Sữa nóng đầy dinh dưỡng là lựa chọn hoàn hảo để tăng cường sức khỏe và cảm giác ấm áp cho bạn.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
+                            <h5 class="menu-price">$9</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Cà phê sữa</h4>
+                            <p class="m-0">Sự kết hợp giữa sữa và cà phê mang lại hương vị đậm đà và ngọt ngào.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mb-5">Đồ uống lạnh</h1>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/trachanh.avif" alt="">
+                            <h5 class="menu-price">$5</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Nước chanh</h4>
+                            <p class="m-0">Nước chanh tươi ngon, giải nhiệt mùa hè.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/nuoccam.jpg" alt="">
+                            <h5 class="menu-price">$7</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Nước cam</h4>
+                            <p class="m-0">Nước cam nguyên chất là nguồn cung cấp vitamin C tự nhiên và hương vị tươi mát.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/sinhto.jpg" alt="">
+                            <h5 class="menu-price">$9</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Sinh tố</h4>
+                            <p class="m-0">Sự kết hợp đa dạng của nhiều loại trái cây đầy dinh dưỡng và  tươi mát.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
+
+
+    <!-- Reservation Start -->
+    <div class="container-fluid my-5">
+        <div class="container">
+            <div class="reservation position-relative overlay-top overlay-bottom">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 my-5 my-lg-0">
+                        <div class="p-5">
+                            <div class="mb-4">
+                                <h1 class="display-3 text-primary">Giảm 30%</h1>
+                                <h1 class="text-white">Đặt bàn online</h1>
+                            </div>
+                            <p class="text-white">Khi bạn đặt bàn trực tuyến tại quán nước của chúng tôi, bạn sẽ nhận được ưu đãi giảm giá hấp dẫn:</p>
+                            <ul class="list-inline text-white m-0">
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Tiết kiệm 10% cho tất cả các loại nước uống.</li>
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Nhận thêm phiếu giảm giá 20% cho lần ghé thăm tiếp theo.</li>
+                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Miễn phí món tráng miệng cho nhóm từ 4 người trở lên.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
+                            <h1 class="text-white mb-4 mt-5">Đặt bàn</h1>
+                            <form class="mb-5">
+                                <div class="form-group">
+                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Tên"
+                                        required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email"
+                                        required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Ngày" data-target="#date" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Giờ" data-target="#time" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
+                                        <option selected>số người</option>
+                                        <option value="1">1 người</option>
+                                        <option value="2">2 người </option>
+                                        <option value="3">3 người/option>
+                                        <option value="3">4 người</option>
+                                    </select>
+                                </div>
+                                
+                                <div>
+                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Đặt ngay</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reservation End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Đánh giá</h4>
+                <h1 class="display-4">Đánh giá của khách hàng</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>David Wilson</h4>
+                            <i>Kiến trúc sư</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Menu đa dạng và chất lượng nước uống tuyệt hảo. Tôi đặc biệt thích dịch vụ giao hàng nhanh chóng của quán, luôn nhận được nước uống tươi ngon ngay tại nhà.</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Sarah Brown</h4>
+                            <i>Giáo viên</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Quán nước này là nơi lý tưởng để thư giãn. Không gian thoải mái và nhân viên rất nhiệt tình. Dịch vụ giao hàng tận nơi cũng rất nhanh và tiện lợi.</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Michael Smith</h4>
+                            <i>Luật sư</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Tôi rất ấn tượng với chất lượng nước uống ở đây. Nguyên liệu tươi ngon và pha chế sáng tạo. Dịch vụ giao hàng rất đúng giờ, tôi sẽ quay lại nhiều lần</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Emily </h4>
+                            <i>Bác sĩ</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Thức uống tại quán thật tuyệt vời! Mỗi ly nước đều tươi mát và đầy hương vị. Dịch vụ giao hàng nhanh chóng và thân thiện nữa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+     
+</body>
+</html>

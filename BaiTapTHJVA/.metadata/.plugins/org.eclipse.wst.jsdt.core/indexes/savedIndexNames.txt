@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\OneDrive - University of Technology and Education\Desktop\BaiTapTHJVA\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+852404619.index
+367988363.index
+1429763547.index
+3546943344.index
+1429332070.index
+157746064.index

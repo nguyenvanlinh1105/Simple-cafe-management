@@ -1,0 +1,257 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Trang chủ</title>
+</head>
+<body>
+         <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url(template/web/images/bk.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-8 col-sm-12 text-center ftco-animate">
+            	<span class="subheading">Xin chào</span>
+              <h1 class="mb-4">Một nơi tuyệt vời để học tập</h1>
+              <p class="mb-4 mb-md-5">Một nơi yên tĩnh cho những ngày chạy dealine vất vả .</p>
+              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex align-items-xl-end">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>000 (123) 456 7890</h3>
+	    						<p>Đừng vội đánh giá thấp, hãy liên hệ với chúng tôi nếu bạn gặp bất cứ vấn đề gì.</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>198 West 21th Street</h3>
+	    						<p>	Hãy đến với chúng tôi khi bạn cần thư giãn</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Mở cửa 24h vào tất cả các ngày trong tuần</h3>
+	    						<p>Chào mừng bàn đến với chúng tôi</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="book p-4">
+	    			<h3>Đặt bàn</h3>
+	    			<form action="#" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-md-calendar"></span></div>
+		            		<input type="text" class="form-control appointment_date" placeholder="Date">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-ios-clock"></span></div>
+		            		<input type="text" class="form-control appointment_time" placeholder="Time">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		            </div>
+		            <div class="form-group ml-md-4">
+		              <input type="submit" value="Appointment" class="btn btn-white py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(template/web/images/bk2.jpg);"></div>
+    	<div class="one-half ">
+    		<div class="overlap">
+	        <div class="heading-section  ">
+	        	<span class="subheading">Discover</span>
+	          <h2 class="mb-4">Lịch sử của chúng tôi</h2>
+	        </div>
+	        <div>
+	  				<p>Quán cafe của chúng tôi đã được mở cho hơn 10 năm với đội ngũ nhân viên chuyên nghiệp, mang đến cho khách hàng một nơi yên tĩnh để làm việc, học tập với không gian mở vô cùng thoải mái. Chúng tôi chú trọng vào trải nghiệm khách hàng để có thể đem đến cho khách hàng trải nghiệm tốt nhất khi đến với chúng tôi.</p>
+	  			</div>
+  			</div>
+    	</div>
+    </section>
+
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+          	<span class="subheading">Khám phá</span>
+            <h2 class="mb-4">Cafe bán chạy nhất</h2>
+            <p>Hãy để chúng tôi mang hương vị của món caphe giúp bạn trở nên tỉnh táo hơn</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a href="#" class="img" style="background-image: url(template/web/images/menu-1.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a href="#">Cà phê đen</a></h3>
+    						<p>Vị đắng của cafe sẽ giúp bạn quên đi mệt mỏi của dealine.</p>
+    						<p class="price"><span>59.000</span></p>
+    						<p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a href="#" class="img" style="background-image: url(template/web/images/menu-2.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a href="#">Cà phê sữa</a></h3>
+    						<p>Vị ngọt của sữa giúp bạn thêm iu đời hơn nhé!!</p>
+    						<p class="price"><span>50.000</span></p>
+    						<p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a href="#" class="img" style="background-image: url(template/web/images/menu-3.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a href="#">Bạc xĩu</a></h3>
+    						<p>Cuộc đời bạc bẽo khiến bạn muốn xĩu - hãy cố gắng lên nhé.</p>
+    						<p class="price"><span>60.000</span></p>
+    						<p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a href="#" class="img" style="background-image: url(template/web/images/menu-4.jpg);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a href="#">Coffee muối</a></h3>
+    						<p>Mang hương vị của biển - cà phê muối - đưa bạn trở về thực tại.</p>
+    						<p class="price"><span>55.000s</span></p>
+    						<p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+    					</div>
+    				</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+   
+    <section class="ftco-section img" id="ftco-testimony" style="background-image: url(template/web/images/bg_3.jpg);"  data-stellar-background-ratio="0.5">
+    	<div class="overlay"></div>
+	    <div class="container">
+	      <div class="row justify-content-center mb-5">
+	        <div class="col-md-7 heading-section text-center ftco-animate">
+	        	<span class="subheading">Testimony</span>
+	          <h2 class="mb-4">Khách hàng nói gì về chúng tôi</h2>
+	          <p>Hãy lắng nghe những trải nghiệm từ những vị khách hàng khó tính khi đến với chúng tôi.</p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="container-wrap">
+	      <div class="row d-flex no-gutters">
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	             <blockquote>
+	                <p>&ldquo;Những món cà phê ở đây vô cùng hợp khẩu vị của tôi, chúng rất tuyệt vời. Tôi sẽ đến đây thường xuyên hơn nữa.&rdquo;</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="images/person_4.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">Yến Như <span class="position">Web Designer</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end">
+	          <div class="testimony overlay">
+	             <blockquote>
+	                <p>&ldquo;Không gian ở đây vô cùng yên tĩnh khiến tôi có thể tập trung tinh thần để làm việc được hiệu quả và năng suất hơn.&rdquo;</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="images/person_2.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">Linh Nguyễn <span class="position">Developer</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	             <blockquote>
+	                <p>&ldquo;Tôi thường đến quán cà phê này để đọc sách, cà phê ở đây vô cùng tuyệt vời, nhân viên cũng rất tận tình, không gian thì vô cùng thoải mái để tôi được trải nghiệm những điều lý thú trong cuốn sách của tôi. &rdquo;</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="images/person_3.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center"> Thu Nguyệt <span class="position">Khách hàng quen</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end">
+	          <div class="testimony overlay">
+	             <blockquote>
+	                <p>&ldquo;Cà phê ở đây rất hợp khẩu vị của tôi, tôi và bạn của mình rất hay đến quán vì không gian vô cùng thoải mái &rdquo;</p>
+	              </blockquote>
+	              <div class="author d-flex mt-4">
+	                <div class="image mr-3 align-self-center">
+	                  <img src="images/person_2.jpg" alt="">
+	                </div>
+	                <div class="name align-self-center">Hiếu Nguyễn <span class="position">Nhân viên văn phòng</span></div>
+	              </div>
+	          </div>
+	        </div>
+	        <div class="col-lg align-self-sm-end ftco-animate">
+	          <div class="testimony">
+	            <blockquote>
+	              <p>&ldquo;Tôi thường đến đây để soạn giáo án cho học sinh vì không gian ở đây rất hợp để tôi tập trung làm việc &rdquo;</p>
+	            </blockquote>
+	            <div class="author d-flex mt-4">
+	              <div class="image mr-3 align-self-center">
+	                <img src="images/person_3.jpg" alt="">
+	              </div>
+	              <div class="name align-self-center">Lê Hòa <span class="position">Giáo viên</span></div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+     
+</body>
+</html>

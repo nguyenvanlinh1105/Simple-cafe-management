@@ -1,0 +1,143 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@include file="/common/taglib.jsp"%>
+    <c:url var="APIurl" value="/api-datDoUong"/>
+<c:url var ="NewURL" value="/web-checkout"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trang thanh toán</title>
+</head>
+<body>
+	<div class="container mt-4 mb-5 pb-5">
+		<div class="row">
+			    <div class="col-sm-12">
+			        <c:if test="${not empty messageResponse}">
+			            <div class="alert alert-${alert}">
+			                ${messageResponse}
+			            </div>
+			        </c:if> 
+			    </div>
+			</div>
+            <form class="needs-validation" id ="formSubmit" name="frmthanhtoan" method="post" >
+
+                <div class="py-5 text-center">
+                    <i class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
+                    <h2>Bill Thanh toán</h2>
+                    <p class="lead">Bill thanh toán đồ uống của bạn sau khi thanh toán cho  <strong>GrandCoffee</strong></p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 order-md-2 mb-4">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-muted">Giỏ hàng</span>
+                            <span class="badge badge-secondary badge-pill">2</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+							 <c:forEach var="item" items="${sanPham}">
+	                            <li class="list-group-item d-flex justify-content-between lh-condensed">
+	                                <div>
+	                                    <h6 class="my-0">${item.tenDoUong}</h6>
+	                                    <small class="text-muted">${item.donGia}x ${item.soLuong}</small>
+	                                </div>
+	                                <span class="text-muted">${item.thanhTien}</span>
+	                            </li>
+                             </c:forEach>
+
+                          
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Tổng thành tiền</span>
+                                <strong>${tongTien}</strong>
+                            </li>
+                            <c:choose>
+						    <c:when test="${tongTien eq 0}">
+						        <h5 class="text-primary font-weight-bold">Đơn hàng của bạn trống hoặc đã được thanh toán hết.</h5>
+						    </c:when>
+						</c:choose>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="col-md-7 order-md-1">
+                        <h4 class="mb-3">Thông tin khách hàng</h4>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="kh_ten">Tên khách hàng</label>
+                                <input type="text" class="form-control"
+                                    value="Nguyễn Văn Linh" readonly="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="kh_gioitinh">Giới tính</label>
+                                <input type="text" class="form-control" value="Nam"
+                                    readonly="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="kh_diachi">Địa chỉ</label>
+                                <input type="text" class="form-control" 
+                                    value="48 Cao Thắng, Thanh Bình, Hải Châu" readonly="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="kh_dienthoai">Điện thoại</label>
+                                <input type="text" class="form-control" 
+                                    value="0814360811" readonly="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="kh_email">Email</label>
+                                <input type="text" class="form-control" 
+                                    value="vanlinh@gmail.com" readonly="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="kh_ngaysinh">Ngày sinh</label>
+                                <input type="text" class="form-control" 
+                                    value="11/05/2004" readonly="">
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+              
+            </form>
+        </div>
+        
+        <script>
+		$('#btnThanhToan').click(function (e) {
+		    e.preventDefault();
+		    var data = {};
+		    var ids = $('.row ul input[type=hidden]').map(function () {
+		        return $(this).val();
+		    }).get();
+		    
+		    var phuongThucThanhToan = $('input[name="phThucThanhToan"]:checked').val();
+		    data['ids'] = ids;
+		    data['phThucThanhToan'] = phuongThucThanhToan;
+		    console.log(data)
+		    var id = $('#btnThanhToan').val();
+		    if (id == "thanh toán") {
+		    	updateNew(data);
+		    } 
+		});
+
+		function updateNew(data) {
+		    $.ajax({
+		        url: '${APIurl}',
+		        type: 'PUT',
+		        contentType: 'application/json',
+		        data: JSON.stringify(data),
+		        dataType: 'json',
+		        success: function (result) {
+		        	window.location.href = "${NewURL}?message=thanhtoans_success";
+		        },
+		        error: function (error) {
+		        	window.location.href = "${NewURL}?message=thanhtoans_success";
+		        }
+		    });
+		}
+		   
+		
+		    
+</script>
+</body>
+</html>

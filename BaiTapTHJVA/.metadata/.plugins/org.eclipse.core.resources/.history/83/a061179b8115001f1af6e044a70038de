@@ -1,0 +1,15 @@
+package com.quanlicafe.dao.impl;
+
+import java.util.List;
+
+import com.quanlicafe.mapper.khuVucMapper;
+import com.quanlicafe.model.khuVucModel;
+
+public class khuVucDAO extends AbstractDAO<khuVucDAO> {
+
+	public List<khuVucModel> findAllKhuVuc() {
+		String sql = "select * from dbo.KHUVUC";
+		return query(sql,new khuVucMapper());
+	}
+
+}

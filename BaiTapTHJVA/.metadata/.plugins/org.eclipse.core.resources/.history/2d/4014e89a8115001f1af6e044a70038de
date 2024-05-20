@@ -1,0 +1,15 @@
+package com.quanlicafe.dao.impl;
+
+import java.util.List;
+
+import com.quanlicafe.mapper.menuDoUongMapper;
+import com.quanlicafe.model.MenuDoUongModel;
+
+public class menuDoUongDAO extends AbstractDAO<menuDoUongDAO>{
+
+	public List<MenuDoUongModel> findAllMenu() {
+		String sql = "select * from dbo.MENUDOUONG";
+		return query(sql,new menuDoUongMapper());
+	}
+
+}
